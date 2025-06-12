@@ -1,3 +1,18 @@
+*Introduction to Currency Converter Code*
+
+This code is a simple currency converter tool that allows users to convert amounts between different currencies using current exchange rates. It utilizes the `forex_python` library to access real-time exchange rates and provides a user-friendly interface for input and output.
+
+*Key Features:*
+
+- Converts between various currencies using current exchange rates
+- Supports a wide range of currencies
+- Displays the result with the currency symbol
+
+*How to Use:*
+
+1. Install the `forex_python` library using `pip install forex_python`.
+2. Run the code and follow the prompts to enter the currency to convert from, the currency to convert to, and the amount.
+3. The code will display the converted amount with the currency symbol.
 # Currency-converter-using-python from forex_python.converter import CurrencyRates, CurrencyCodes
 
 print("Currency Converter")
